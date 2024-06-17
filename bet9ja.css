@@ -1,0 +1,607 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    background-color: dimgray;
+}
+.navbar{
+width: 100%;
+height: 60px;
+background-color: black;
+display: flex;
+}
+.sitelogo{
+    width: 50%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.rightmenu{
+    width: 50%;
+    height: 55px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.rightnav{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    display: flex;
+}
+.textbox input{
+    width: 95%;
+    height: 15px;
+    background-color: rgb(177, 173, 173);
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+.passwordbox input{
+    width: 95%;
+    height: 15px;
+    background-color: rgb(177, 173, 173);
+    margin: 5px;
+    outline: none;
+    border: none;
+}
+.loginbutton input{
+    width: 60px;
+    height: 20px;
+    background-color: green;
+    margin: 5px;
+    margin-left: 5px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: center;
+    color: white;
+
+}
+.forgetbox{
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    display: flex;
+}
+.forgotpassword input{
+    background-color: green;
+}
+.register input{
+    background-color: orange;
+    margin-left: 5px;
+}
+
+/* Game Section */
+.gamesection{
+    width: 100%;
+    height: 17px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+.space{
+    width: 20%;
+    height: 30px;
+    visibility: hidden;
+    /* background-color: blue; */
+}
+.sportbutton li {
+   list-style: none;
+   width: 70px;
+   color: white;
+}
+.sportbutton li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+.livebutton li{
+    list-style: none;
+    width: 50px;
+}
+.livebutton li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+.desktop li{
+    list-style: none;
+    width: 80px;
+}
+.desktop li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+.casino li {
+    width: 70px;
+    list-style: none;
+}
+.casino li :hover{
+    width: 80px;
+    height:50px ;
+    background-color: green;
+}
+
+.league li{
+    width: 130px;
+    list-style: none;
+}
+.league li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+.super9ja li{
+    width: 80px;
+    list-style: none;
+    /* background-color: red; */
+}
+.super9ja li :hover{
+    width: 80px;
+    height:50px ;
+    background-color: green;
+}
+
+.firebets li{
+    width: 90px;
+    list-style: none;
+}
+.firebets li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+.mobile li {
+    width: 70px;
+    list-style: none;
+}
+.mobile li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+.promotions li{
+    width: 90px;
+    list-style: none;
+}
+.promotions li :hover{
+    width: 100px;
+    height:50px ;
+    background-color: green;
+}
+
+
+/* Green nav */
+.greennav{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+}
+.space2{
+    width:19% ;
+    height: 30px;
+    /* background-color: blue; */
+    visibility: hidden;
+}
+.homebutton li{
+list-style: none;
+width: 60px;
+}
+.faqbutton li{
+    list-style: none;
+    width: 40px;
+}
+.deposit li{
+    list-style: none;
+    width: 170px;
+}
+.Tutories li{
+    list-style: none;
+    width: 60px;
+}
+.Results li{
+    list-style: none;
+    width: 60px;
+}
+.Statitics li{
+    list-style: none;
+    width: 60px;
+}
+.Livescore li{
+    list-style: none;
+    width: 80px;
+}
+.Contact li{
+    list-style: none;
+    width: 150px;
+}
+.Whitebutton input{
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.Gmt input{
+    background-color: green;
+    border-radius: 10px;
+}
+
+/* Middle Section */
+/* first section */
+.middlesection{
+    width: 100%;
+    height: 550px;
+    background-color: darkslategray;
+    display: flex;
+}
+.firstsection{
+    width: 15%;
+    height: 550px;
+    background-color: darkslategray;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.fifaimage{
+    width: 200px;
+    height: 160px;
+    background-color: white;
+}
+.bet9jatext{
+    width: 100px;
+    height: 60px;
+    /* background-color: azure; */
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.live{
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    color: green;
+}
+.betting1{
+     width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    }
+
+.inplay{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.secondsection{
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+.betimage1{
+    width: 100%;
+    height: 300px;
+    /* background-color: blue; */
+}
+.betimage2{
+    width: 100% ;
+    height: 100px;
+    /* background-color: brown; */
+}
+.thirdsection{
+    width: 20%;
+    height: 550px;
+    background-color: darkslategray;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+.fiftsection{
+    width: 15%;
+    height: 550px;
+    background-color: darkslategray;
+    border: 1px solid white;
+}
+.inplay{
+    color: white;
+}
+.betting2{
+    color: white;
+    height: 50px;
+}
+.joinbutton input{
+    color: white;
+    background-color: green;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.registerbutton{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    justify-content: center;
+}
+.registerbutton input{
+    width: 95%;
+    background-color: yellow;
+    height: 40px;
+}
+.betslipbox{
+    width: 100%;
+    height: 125px;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+}
+.betslip{
+    width: 95%;
+    height: 30px;
+    background-color: rgb(114, 113, 113);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.insert{
+    width: 95%;
+    height: 90px;
+    background-color: white;
+    
+}
+.bookingbox{
+    height: 20px;
+    display: flex;
+    margin: 2px;
+}
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
+.bookingbox input{
+    margin-right: 5px;
+}
+.loadbutton input{
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+}
+.fastsportbox{
+    width: 100%;
+    height:100px ;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text2{
+    width: 95%;
+    height: 30px;
+    /* background-color: rgb(114, 113, 113); */
+}
+.text3{
+    width: 95%;
+    height: 30px;
+    background-color: rgb(114, 113, 113);
+    color: white;
+
+}
+.codebox{
+    width: 95%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+.checkbox1{
+    width: 30%;
+}
+.checkbox1 input{
+    width: 80%;
+    height: 20px;
+    margin: 5px;
+}
+.checkbox2 input{
+    width: 60%;
+    height: 20px;
+    margin: 5px;
+}
+.couponbox{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(70, 68, 68);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.coupontext{
+    width: 95%;
+    height: 30px;
+    background-color: rgb(114, 113, 113);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.text5{
+    width: 95%;
+    height: 20px;
+}
+.coupontextbox{
+    width: 95%;
+    height: 80px;
+    background-color: white;
+}
+.couponbutton input{
+    width: 60%;
+    height: 20px;
+    margin: 5px;
+    
+}
+.followbutton input{
+    margin: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 90%;
+}
+.watchbutton{
+    width: 95%;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+}
+.watchbutton input{
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+/* Fiftsection */
+.fifaimage2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.bet9jatext2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: aquamarine; */
+    height: 40px;
+}
+.zoom{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    /* background-color: blue; */
+    height: 40px;
+    color: green;
+}
+.virtual{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    /* background-color: aqua; */
+    height: 40px;
+    color: green;
+}
+.soccer{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    /* background-color: lightcoral; */
+    height: 40px;
+    color: green;
+}
+.play{
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    /* background-color: khaki; */
+    height: 30px;
+    color: white;
+    margin-top: 5px;
+}
+.joinbutton2{
+    display: flex;
+    justify-content: center;
+}
+.joinbutton2 input{
+    width: 50%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+@media screen and (max-width: 576px){
+    .navbar{
+        width: 100%;
+    }
+    .rightnav{
+        width: 100%;
+    }
+    .gamesection{
+        width: 100%;
+        height: 30px;
+    }
+    .firebets{
+        visibility: hidden;
+    }
+    .mobile{
+        visibility: hidden;
+    }
+    .promotions{
+        visibility: hidden;
+    }
+    .space2{
+        visibility: hidden;
+    }
+    .greennav{
+        width: 100%;
+    }
+    .Whitebutton{
+        visibility: hidden;
+    }
+    .Gmt{
+        visibility: hidden;
+    }
+    .Livescore{
+        visibility: hidden;
+    }
+    .Contact{
+        visibility: hidden;
+    }
+    .firstsection{
+        width: 100%;
+    }
+    .middlesection{
+        flex-direction: column;
+    }
+    .fifaimage{
+        margin-top: 10px;
+    }
+    .joinbutton{
+        margin-bottom: 10px;
+    }
+    .thirdsection{
+        width: 100%;
+        height: 500px;
+        margin-top: 5px;
+    }
+    .fiftsection{
+        width: 100%;
+    }
+    .fifaimage2{
+        margin-top: 10px;
+    margin-left: 140px;
+    }
+}
