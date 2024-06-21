@@ -58,7 +58,7 @@ display: flex;
     height: 20px;
     background-color: green;
     margin: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
     display: flex;
     border-radius: 5px;
     justify-content: center;
@@ -82,7 +82,7 @@ display: flex;
 /* Game Section */
 .gamesection{
     width: 100%;
-    height: 17px;
+    height: 30px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -293,12 +293,12 @@ width: 60px;
     background-color: white;
 }
 .betimage1{
-    width: 100%;
+    width: 50%;
     height: 300px;
     /* background-color: blue; */
 }
 .betimage2{
-    width: 100% ;
+    width: 50% ;
     height: 100px;
     /* background-color: brown; */
 }
@@ -313,6 +313,8 @@ width: 60px;
 .fiftsection{
     width: 15%;
     height: 550px;
+    display: flex;
+    flex-direction: column;
     background-color: darkslategray;
     border: 1px solid white;
 }
@@ -476,9 +478,11 @@ width: 60px;
 /* Fiftsection */
 .fifaimage2{
     width: 50%;
+    height: 100px;
     display: flex;
-    align-items: center;
-    margin-left: 40px;
+    margin-left: 50px;
+    justify-content: center;
+    background-color: brown;
 }
 .bet9jatext2{
     display: flex;
@@ -591,7 +595,6 @@ width: 60px;
         width: 100%;
     }
     .fifaimage2{
-        margin-top: 10px;
-    margin-left: 140px;
+        margin-left: 120px;
     }
 }
