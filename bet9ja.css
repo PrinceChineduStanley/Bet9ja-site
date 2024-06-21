@@ -486,6 +486,7 @@ width: 60px;
     width: 50%;
     display: flex;
     align-items: center;
+    margin-left: 40px;
 }
 .bet9jatext2{
     display: flex;
@@ -537,7 +538,7 @@ width: 60px;
     height: 30px;
     background-color: green;
     color: white;
-    margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     border-radius: 5px;
